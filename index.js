@@ -1,3 +1,4 @@
+
 #!/usr/bin/env node
 
 /*
@@ -18,7 +19,7 @@ module.exports = function(port) {
   var parse = url.parse;
   var placeholders = /(:\w+)/gi;
 
-  ['GET', 'POST', 'PUT', 'DELETE'].forEach(function(method) {
+  ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'].forEach(function(method) {
     http.Server.prototype[method.toLowerCase()] = function(path, callback) {
       if (typeof routes[method] !== 'object') {
         routes[method] = {};
