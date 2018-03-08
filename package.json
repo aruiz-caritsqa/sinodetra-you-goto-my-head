@@ -1,0 +1,32 @@
+{
+  "name": "sinodetra-you-goto-my-head",
+  "version": "0.0.1",
+  "description": "Minimal Sinatra like router for node.js by fapprik... with the added ability to respond with custom headers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:aruiz-caritsqa/sinodetra-you-goto-my-head.git"
+  },
+  "keywords": [
+    "sinodetra",
+    "sinatra",
+    "web",
+    "rest",
+    "restful",
+    "router",
+    "routing"
+  ],
+  "author": "Adrien Ruiz Gauder <caritsqa@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aruiz-caritsqa/sinodetra-you-goto-my-head/issues"
+  },
+  "homepage": "https://github.com/aruiz-caritsqa/sinodetra-you-goto-my-head#readme",
+  "contributors": [
+    "Adrien Ruiz Gauder <caritsqa@gmail.com>",
+    "fapprik <hello@fapprik.com>",
+  ]
+}
